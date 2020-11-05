@@ -1,0 +1,52 @@
+{
+  "$schema": "https://schema.yext.com/config/answers/answers-config/v1",
+  "$id": "answers_faqs_template",
+  "name": "Answers FAQs Template",
+  "supportedLocales": [],
+  "countryRestrictions": [],
+  "verticals": {
+    "faqs": {
+      "entityTypes": [
+        "faq"
+      ],
+      "name": "FAQs",
+      "savedSearchId": "40233348",
+      "searchableFields": {
+        "builtin.entityType": {
+          "nlpFilter": true
+        },
+        "name": {
+          "textSearch": true
+        }
+      },
+      "sortBys": [],
+      "source": "KNOWLEDGE_MANAGER"
+    },
+    "links": {
+      "apiKey": "REPLACE_API_KEY",
+      "cx": "REPLACE_CX_KEY",
+      "name": "Links",
+      "siteRestricted": false,
+      "source": "GOOGLE_CSE",
+      "useSynonyms": "ALL_SYNONYMS"
+    }
+  },
+  "autocomplete": {
+    "disablePopularQueries": false,
+    "hardcodedPrompts": [
+      "What is Yext?",
+      "FAQs"
+    ]
+  },
+  "synonyms": {
+    "oneWay": [],
+    "synonymSet": [
+      [
+        "faq",
+        "question",
+        "frequently asked questions"
+      ]
+    ]
+  },
+  "localizations": {}
+}
