@@ -98,7 +98,7 @@
               "ExternalEntityId": "",
               "InputType": "",
               "Sink": "answersExperience",
-              "StringValue": "answers_faqs_template",
+              "StringValue": "answers-faqs",
               "SubparameterContentMapEntries": [
                 {
                   "ExternalEntityId": "",
