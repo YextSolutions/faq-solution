@@ -17,6 +17,9 @@
         },
         "name": {
           "semanticTextSearch": true
+        },
+        "keywords": {
+          "textSearch": true
         }
       },
       "sortBys": [],
@@ -31,12 +34,17 @@
       "useSynonyms": "ALL_SYNONYMS"
     }
   },
-  "autocomplete": {
-    "disablePopularQueries": false,
-    "hardcodedPrompts": [
+  "querySuggestions": {
+    "popularQueriesBlacklistedTerms": [],
+    "universalPrompts": [
       "What is Yext?",
       "FAQs"
-    ]
+    ],
+    "verticalPrompts": {
+      "faqs": [
+        "[[name]]"
+      ]
+    }
   },
   "synonyms": {
     "oneWay": [],
