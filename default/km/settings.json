@@ -1,4 +1,11 @@
 {
   "$schema": "https://schema.yext.com/config/km/settings/v1",
-  "primaryEntityType": "faq"
+  "primaryEntityType": "faq",
+  "entityTypeSettings": [
+    {
+      "entityType": "faq",
+      "defaultFieldEligibilityGroup": "faq.default",
+      "disabled": false
+    }
+  ]
 }
